@@ -16,6 +16,11 @@ nav a {
   #hero-msg h1, #hero-msg h4 {
     text-align: center;
   }
+
+  #hero-img {
+    width: 100%;
+}
+
   button-box {
     text-align: center;
   }
@@ -42,6 +47,7 @@ body {
 
 header {
   text-align: center;
+  background-color: #f6efee; 
 }
 
 nav a:hover {
@@ -64,10 +70,13 @@ nav a:hover {
 
 .book:hover, .join:hover {
   text-align: center;
+  background-color: #ECCADD;
+  color:rgb(34, 51, 78)
 }
 
 #background {
   text-align: center;
+  background-color: #a9a5a5;
 }
 .msg {
   text-align: center;
@@ -90,10 +99,6 @@ msg h2 {
   padding-bottom: 15px;
 }
 
-header {
-    background-color: #f6efee; 
-}
-
 .home-title {
     color:#9f6e8a;
     font-family: 'courgette', 'pacifico', 'kalams';
@@ -102,21 +107,11 @@ header {
 }
 
 h2 { margin:0;
-
 }
 
 h4 {
     color:black
 }
-
-.book:hover, .join:hover {
-    background-color: #ECCADD;
-    color:rgb(34, 51, 78) 
-}
-
-#background {
-    background-color: #a9a5a5;
-}   
 
 footer {
     text-align: center;
@@ -153,10 +148,6 @@ footer .social img {
 
 logo_link {
     padding-top: 5px;
-}
-
-#hero-img {
-    width: 100%;
 }
 
 .card-img {
