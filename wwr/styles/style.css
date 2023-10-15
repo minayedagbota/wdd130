@@ -1,12 +1,16 @@
 
+
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300&family=Lato:wght@300&family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:wght@300&display=swap');
+
 #content {
     max-width: 1600px;
     margin: 0 auto;
   }
 nav a {
     text-align: center;
-    color: #8787d6;
+    color: #4c4cdf;
     text-decoration: none;
+    padding: 35px;
 }
   
   #hero-msg h1, #hero-msg h4 {
@@ -15,7 +19,11 @@ nav a {
   button-box {
     text-align: center;
   }
-  
+
+ .rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+  }  
+
   main section {
     text-align: center;
   }
@@ -24,6 +32,12 @@ nav a {
 }
 body {
   text-align: center;
+  background-color: #a9a5a5; 
+  color:black;
+  font-family: 'motserrat', 'lato', sans-serif;
+  font-size: 22px;
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -32,6 +46,8 @@ header {
 
 nav a:hover {
   text-align: center;
+  --paragraph-background-color: #396E94;
+  color:rgb(224, 11, 11)
 }
 
 .book, .join {
@@ -39,6 +55,11 @@ nav a:hover {
   background-color: #396E94; 
   color:rgb(217, 225, 234);
   text-decoration: none;
+  font-family: 'courgette', 'pacifico', 'kalams';
+  font-size: 18px;
+  padding: 15px 30px;
+  margin-top: 50px;
+  border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -50,28 +71,38 @@ nav a:hover {
 }
 .msg {
   text-align: center;
+  background-color: #f6efee;
+    font-family: 'courgette', 'pacifico', 'kalams';
+    font-size: 2em;
+    line-height: 1.5em;
+    padding: 35px;
 }
 
-footer {
-  text-align: center;
+msg h2 {
+  color:black;
+  margin: 0;
 }
 
-body {
-    background-color: #a9a5a5; 
-    color:black
+.msg p {
+  color:black;
+  font-family: 'courgette', 'pacifico', 'kalams';
+  font-size: 2em;
+  padding-bottom: 15px;
 }
 
 header {
     background-color: #f6efee; 
 }
 
-nav a:hover {
-  --paragraph-background-color: #396E94;
-    color:rgb(33, 31, 30)
+.home-title {
+    color:#9f6e8a;
+    font-family: 'courgette', 'pacifico', 'kalams';
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-.home-title {
-    color:#9f6e8a
+h2 { margin:0;
+
 }
 
 h4 {
@@ -86,20 +117,13 @@ h4 {
 #background {
     background-color: #a9a5a5;
 }   
-.msg {
-    background-color: #f6efee;
-}
 
-.msg h2 {
-    color:black
-}
-
-.msg p {
-    color:black
-}
 footer {
+    text-align: center;
     background-color: #acd9fa;
-    color:black
+    color:black;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 
 footer a {
@@ -118,13 +142,28 @@ footer p {
     font-size: 1.2em;
 }
 
+footer .social img {
+  padding-top: 15px;
+}
 
 .logo, .icon {
     width: 80px;
+    padding-top: 10px;
+}
+
+logo_link {
+    padding-top: 5px;
 }
 
 #hero-img {
     width: 100%;
+}
+
+.card-img {
+    border: 10px solid #9f6e8a;
+}
+main section img {
+    box-sizing: border-box;
 }
 
 
