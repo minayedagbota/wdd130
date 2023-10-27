@@ -1,6 +1,6 @@
 
 
-  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam:wght@300&family=Lato:wght@300&family=Montserrat:wght@300&family=Nunito+Sans:opsz,wght@6..12,300&family=Open+Sans:wght@300&family=Pacifico&family=Poppins:wght@300&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Courgette&family=Kalam&family=Lato:wght@700&family=Montserrat:wght@700&family=Pacifico&display=swap');
 
 #content {
     max-width: 1600px;
@@ -36,23 +36,21 @@ nav a {
     height: 725px;
 }
 body {
-  text-align: center;
   background-color: #a9a5a5; 
   color:black;
-  font-family: 'motserrat', 'lato', sans-serif;
+  font-family: 'montserrat', 'lato', sans-serif;
   font-size: 22px;
   margin: 0;
   padding: 0;
 }
 
 header {
-  text-align: center;
   background-color: #f6efee; 
 }
 
 nav a:hover {
   text-align: center;
-  --paragraph-background-color: #396E94;
+  background-color: #396E94;
   color:rgb(224, 11, 11)
 }
 
@@ -61,7 +59,7 @@ nav a:hover {
   background-color: #396E94; 
   color:rgb(217, 225, 234);
   text-decoration: none;
-  font-family: 'courgette', 'pacifico', 'kalams';
+  font-family: 'courgette', 'kalams', 'pacifico';
   font-size: 18px;
   padding: 15px 30px;
   margin-top: 50px;
@@ -76,13 +74,12 @@ nav a:hover {
 
 #background {
   text-align: center;
-  background-color: #a9a5a5;
+  background-color: #928e8e;
 }
 .msg {
   text-align: center;
   background-color: #f6efee;
-    font-family: 'courgette', 'pacifico', 'kalams';
-    font-size: 2em;
+    font-family: 'courgette', 'kalams', 'pacifico';
     line-height: 1.5em;
     padding: 35px;
 }
@@ -94,14 +91,14 @@ msg h2 {
 
 .msg p {
   color:black;
-  font-family: 'courgette', 'pacifico', 'kalams';
-  font-size: 2em;
+  font-family: 'courgette', 'kalams', 'pacifico';
+  font-size: 0.8em;
   padding-bottom: 15px;
 }
 
 .home-title {
     color:#9f6e8a;
-    font-family: 'courgette', 'pacifico', 'kalams';
+    font-family: 'courgette', 'kalams', 'pacifico';
     font-size: 2em;
     margin-top: 10px;
 }
@@ -114,7 +111,6 @@ h4 {
 }
 
 footer {
-    text-align: center;
     background-color: #acd9fa;
     color:black;
     padding: 25px 50px;
